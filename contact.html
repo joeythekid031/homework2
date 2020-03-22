@@ -7,6 +7,62 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
+    <main class="container">
+        <div class="container">
+            <nav class="navbar navbar-expand-sm navbar-light bg-light">
+                <!-- header, need to turn blue (Primary) with nav-pills? need to make second nav bar fo on xs screen to nav cant get to auto  -->
+                <h4 class="navbar-brand" > <span class="badge badge-primary .text-sm-center font-size-52px">Joseph Stutsman</span></h4>
+                <div class="collapse navbar-collapse" >
+                  <ul class="navbar-nav ml-auto">
+          
+                    <!-- page links -->
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">About</a>
+                    </li>
+          
+                    <li class="nav-item">
+                      <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+    
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+          </div>
+        <!-- card body need to center on screen, play with margins? -->
+        <section class="row">
+            <section class="col-12">
+                <div class="card" style="">
+                    <div class="card-body">
+                    <h5 class="card-title"> Contact me! </h5>
+                      <!-- imported form from tmeplate-->
+                    <div class="container">
+                      <form class="mt-2" method="" id="contactback" action="">
+                    <div class="form-group ">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="ctnamedk" name="ctname" placeholder="Name" autocomplete="off" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="ctemaildk" name="ctemail" placeholder="Email" autocomplete="off" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="4" cols="50" class="form-control" id="cttopicdk" name="cttopic" placeholder="Message" autocomplete="off" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="button" id="btnSendmail" name="button" class="btn btn-primary text-white">Submit</button>
+                    </div>
+                </div>
+            </section>
+        </section>
+          
+        <section class="row">
+            <footer class="col"> 
+                <h6 Class="text-center">@Copyright</h6>
+            </footer>
+        </section>
+    </main>
     
 </body>
 </html>
